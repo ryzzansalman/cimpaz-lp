@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3)",
+      "Bash(pip install *)",
+      "Bash(python3 -c \"import numpy; print\\('ok'\\)\")",
+      "Bash(python3 -c \"import numpy; print\\('numpy disponível'\\)\")",
+      "Bash(apt list *)"
+    ]
+  }
+}
